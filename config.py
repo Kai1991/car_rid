@@ -1,0 +1,19 @@
+class Config():
+    FINE_TUNE = True
+    SAVE_FILTERED_LIST = True
+    FINE_TUNE_ON_ATTRIBUTES = True
+    LEARNING_RATE = 0.00001
+    NBR_EPOCHS = 100
+    BATCH_SIZE = 8
+    IMG_WIDTH = 299
+    IMG_HEIGHT = 299
+    monitor_index = 'loss'
+    NBR_MODELS = 250
+    NBR_COLORS = 7
+    RANDOM_SCALE = True
+    nbr_gpus = 1
+    INITIAL_EPOCH = 0
+    steps_per_epoch = 1 #todo
+    validation_steps = 1 #todo
+    train_path = "" #训练数据集
+    val_path = "" # 验证数据集
